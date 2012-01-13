@@ -13,7 +13,7 @@ names = ["Plato", "Nietzche", "Kant", "Socrates", "Aristotle", "Hume"]
 
 
 microToSecond :: Int -> Int
-microToSecond micro =  1000 * micro
+microToSecond micro =  1000 * 1000 * micro
 
 wait :: IO ()
 wait = do 
